@@ -1,0 +1,53 @@
+
+HELP.md
+
+# Derleme ciktilari
+target/
+build/
+dist/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gizli bilgiler ve yerel ayarlar
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Log dosyalari
+*.log
+logs/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Isletim sistemi dosyalari
+.DS_Store
+Thumbs.db
